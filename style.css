@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #183d5d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #183d5d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#grafico {
+  height: 300px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+#saldo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #183d5d;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+footer a {
+  color: #183d5d;
+  text-decoration: none;
+}
